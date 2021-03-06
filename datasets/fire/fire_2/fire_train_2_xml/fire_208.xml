@@ -1,0 +1,26 @@
+<annotation>
+	<folder>fire_train_2</folder>
+	<filename>fire_208.jpg</filename>
+	<path>\\wsl$\Ubuntu-20.04\home\junwide\Documents\notebooks\MaixPy_YoloV2\datasets\fire\fire_2\fire_train_2\fire_208.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>76</xmin>
+			<ymin>48</ymin>
+			<xmax>197</xmax>
+			<ymax>164</ymax>
+		</bndbox>
+	</object>
+</annotation>

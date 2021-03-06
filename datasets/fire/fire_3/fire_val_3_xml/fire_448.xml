@@ -1,0 +1,26 @@
+<annotation>
+	<folder>fire_val_3</folder>
+	<filename>fire_448.jpg</filename>
+	<path>\\wsl$\Ubuntu-20.04\home\junwide\Documents\notebooks\MaixPy_YoloV2\datasets\fire\fire_3\fire_val_3\fire_448.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>25</xmin>
+			<ymin>25</ymin>
+			<xmax>183</xmax>
+			<ymax>205</ymax>
+		</bndbox>
+	</object>
+</annotation>

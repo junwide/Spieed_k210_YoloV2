@@ -1,0 +1,30 @@
+{
+    "model" : {
+        "architecture":         "MobileNet",
+        "input_size":           224,
+        "anchors":              [0.57273, 0.677385, 1.87446, 2.06253, 3.33843, 5.47434, 7.88282, 3.52778, 9.77052, 9.16828],
+        "labels":               ["fire"],
+        "coord_scale" : 		1.0,
+        "class_scale" : 		1.0,
+        "object_scale" : 		5.0,
+        "no_object_scale" : 	1.0
+    },
+    "pretrained" : {
+        "full":   "fire_3.h5"
+    },
+    "train" : {
+        "actual_epoch":         30,
+        "train_image_folder":   "datasets/fire/fire_4/fire_train_4",
+        "train_annot_folder":   "datasets/fire/fire_4/fire_train_4_xml",
+        "train_times":          15,
+        "valid_image_folder":   "datasets/fire/fire_4/fire_val_4",
+        "valid_annot_folder":   "datasets/fire/fire_4/fire_val_4_xml",
+        "valid_times":          5,
+        "batch_size":           4,
+        "learning_rate":        1e-4,
+        "saved_folder":   		"fire",
+        "first_trainable_layer": "",
+        "jitter":				true,
+        "is_only_detect" : 		false
+    }
+}
